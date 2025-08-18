@@ -1,9 +1,9 @@
-
+from playsound import playsound
 import time
 
 CLEAR = '\033[2J'
 
-CLEAR_AND_RETURN = '\003[2H'
+CLEAR_AND_RETURN = '\033[2H'
 
 
 def alarm(seconds):
@@ -28,3 +28,4 @@ def alarm(seconds):
 
 
 alarm(total_seconds)
+
